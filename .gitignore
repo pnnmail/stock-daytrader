@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+data/*.json
+reports/
+chroma_db/
+knowledge/*.pdf
+state.json
+signal_history*.json
+no_trade_history.json
+stock_history.db
+*.log
+.claude/

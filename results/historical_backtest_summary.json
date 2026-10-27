@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-09-12T09:20:22.666291",
+  "scoring_version": "v4_stumpy_flat2",
+  "long_threshold": 3,
+  "short_threshold": -3,
+  "universe": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "TSLA",
+    "AMD",
+    "META",
+    "ORCL",
+    "CMCSA",
+    "BUD",
+    "BILI",
+    "OMC",
+    "PCG",
+    "EIX",
+    "VERA",
+    "BEAM",
+    "SFL",
+    "RLGT",
+    "CHCI",
+    "DFIN",
+    "PFBC",
+    "SYBT",
+    "GBLI",
+    "UI",
+    "VCTR",
+    "INDO"
+  ],
+  "summary": {
+    "n_total": 2350,
+    "base_rate_up_pct": 49.2,
+    "base_rate_wilson95_pct": [
+      47.2,
+      51.3
+    ],
+    "taken": {
+      "n": 187,
+      "win_rate_pct": 51.9,
+      "wilson95_pct": [
+        44.7,
+        58.9
+      ]
+    },
+    "no_trade_counterfactual": {
+      "n": 2163,
+      "would_win_rate_pct": 51.1,
+      "wilson95_pct": [
+        49.0,
+        53.2
+      ]
+    },
+    "per_factor": {
+      "technical": {
+        "n": 985,
+        "hit_rate_pct": 52.3,
+        "wilson95_low_pct": 49.2,
+        "wilson95_high_pct": 55.4
+      },
+      "stumpy": {
+        "n": 1558,
+        "hit_rate_pct": 50.9,
+        "wilson95_low_pct": 48.4,
+        "wilson95_high_pct": 53.4
+      },
+      "macd": {
+        "n": 1357,
+        "hit_rate_pct": 50.2,
+        "wilson95_low_pct": 47.5,
+        "wilson95_high_pct": 52.8
+      }
+    }
+  }
+}

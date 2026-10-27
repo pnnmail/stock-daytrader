@@ -1,0 +1,73 @@
+{
+  "model": "qwen3.5:4b",
+  "sample_size": 300,
+  "summary": {
+    "n_total": 300,
+    "base_rate_up_pct": 48.3,
+    "base_rate_wilson95_pct": [
+      42.7,
+      54.0
+    ],
+    "python_hit_rate": {
+      "n": 300,
+      "hit_rate_pct": 52.0,
+      "wilson95_pct": [
+        46.4,
+        57.6
+      ]
+    },
+    "llm_hit_rate": {
+      "n": 300,
+      "hit_rate_pct": 51.7,
+      "wilson95_pct": [
+        46.0,
+        57.3
+      ]
+    },
+    "llm_no_trade_share_pct": 97.7,
+    "agreement": {
+      "agree_n": 233,
+      "disagree_n": 67,
+      "disagree_python_right": 34,
+      "disagree_llm_right": 33,
+      "disagree_both_right": 0,
+      "disagree_both_wrong": 0
+    },
+    "confidence_calibration": {
+      "0-50": {
+        "n": 268,
+        "hit_rate_pct": 51.5
+      },
+      "50-70": {
+        "n": 18,
+        "hit_rate_pct": 61.1
+      },
+      "70-90": {
+        "n": 4,
+        "hit_rate_pct": 50.0
+      },
+      "90-101": {
+        "n": 10,
+        "hit_rate_pct": 40.0
+      }
+    },
+    "famous_vs_obscure": {
+      "famous": {
+        "n": 76,
+        "hit_rate_pct": 50.0,
+        "wilson95_pct": [
+          39.0,
+          61.0
+        ]
+      },
+      "obscure": {
+        "n": 224,
+        "hit_rate_pct": 52.2,
+        "wilson95_pct": [
+          45.7,
+          58.7
+        ]
+      }
+    }
+  }
+}
